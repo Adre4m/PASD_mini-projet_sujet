@@ -36,12 +36,22 @@
 /*! \c dictionary is a pointer to the hidden structure for dictionary. */
 
 
+struct dictionary_struct {
+	sstring key;
+	chunk val;
+}
+
 /*!
  * Generate an empty \c dictionary.
  *
  * \return an empty \c dictionary
  */
-dictionary dictionary_create ( void )  { return NULL ; }
+dictionary dictionary_create ( void )  {
+  dictionary dic = (dictionary) malloc(sizeof(struct(dictionary_struct)));
+  dic->key = NULL;
+  dic->val = sstring_create_empty(void);
+  return dic;
+}
 
 
 /*!
@@ -58,7 +68,9 @@ dictionary dictionary_create ( void )  { return NULL ; }
  */
 void dictionary_set ( dictionary dic ,
 			     sstring key ,
-			     chunk val )  {}
+			     chunk val )  {
+  assert(dic->key != NULL && dic->val 
+}
 
 
 /*!
