@@ -1,0 +1,32 @@
+
+
+10
+{
+1 copy
+1 +
+}
+{
+1 copy
+13
+<
+}
+
+while
+
+
+
+10
+
+{
+1 copy
+1 +
+}
+\LOOP def
+{
+1 copy
+13
+<
+}
+\CND def
+
+\LOOP \CND while

@@ -1,0 +1,26 @@
+77
+nop 
+4.0
+nop 
+true
+nop 
+\Paint
+nop 
+
+"re"
+nop
+
+nop
+nop
+{ nop }
+nop
+nop
+
+{
+  nop
+  4.5
+  "80"
+  nop
+  true
+  nop 
+}

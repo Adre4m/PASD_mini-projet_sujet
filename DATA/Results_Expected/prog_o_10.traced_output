@@ -1,0 +1,852 @@
+==**== reading: 157 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+157
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 158 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+158
+157
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100
+100
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 157 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+157
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 158 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+158
+157
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100
+100
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 157 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+157
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 158.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+158.000000
+157
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100.000000
+100
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 157 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+157
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 158.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+158.000000
+157
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 100.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+100.000000
+100
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "erty" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"erty"
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+""
+"erty"
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "erty" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"erty"
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "erty" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"erty"
+"erty"
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "erty" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"erty"
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+""
+"erty"
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "erty" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"erty"
+true
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "erty" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"erty"
+"erty"
+true
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: != (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+false
+true
+true
+false
+false
+true
+true
+false
+true
+false
+false
+true
+false
+true
+true
+false
+false
+true
+true
+false

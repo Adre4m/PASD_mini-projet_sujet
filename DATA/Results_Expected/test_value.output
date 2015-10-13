@@ -1,0 +1,36 @@
+== error # 0 ==
+--error-- # 1
+--error-- # 1
+== int 54 ==
+54
+54
+== double 5.44 ==
+5.440000
+5.440000
+== true ==
+true
+true
+== Protected label eundt_ets_4567 ==
+\eundt_ets_4567
+\eundt_ets_4567
+== sstring eundt ets 4567 ==
+"eundt ets 4567"
+"eundt ets 4567"
+== error # 1 ==
+--error-- # 2
+--error-- # 2
+== int 45 ==
+45
+45
+== double 9.0 ==
+9.000000
+9.000000
+== true ==
+false
+false
+== Protected label ets_4567 ==
+\ets_4567
+\ets_4567
+== sstring ets 4567 ==
+"ets 4567"
+"ets 4567"

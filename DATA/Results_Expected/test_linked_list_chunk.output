@@ -1,0 +1,197 @@
+*** adding to back : "--error-- # 0" :
+--error-- # 0
+*** adding to front : "--error-- # 0" :
+--error-- # 0
+--error-- # 0
+*** adding to back : "--error-- # 1" :
+--error-- # 0
+--error-- # 0
+--error-- # 1
+*** adding to front : "--error-- # 1" :
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+*** adding to back : "--error-- # 2" :
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+*** adding to front : "--error-- # 2" :
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+*** adding to back : "--error-- # 3" :
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+*** adding to front : "--error-- # 3" :
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+*** adding to back : "--error-- # 4" :
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+*** adding to front : "--error-- # 4" :
+--error-- # 4
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+*** adding to back : "--error-- # 5" :
+--error-- # 4
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** adding to front : "--error-- # 5" :
+--error-- # 5
+--error-- # 4
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+ copy
+--error-- # 5
+--error-- # 4
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 5" :
+--error-- # 4
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 4" :
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 3" :
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 2" :
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 1" :
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 0" :
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 0" :
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 1" :
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 2" :
+--error-- # 3
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 3" :
+--error-- # 4
+--error-- # 5
+*** removing from front : "--error-- # 4" :
+--error-- # 5
+*** removing from front : "--error-- # 5" :
+*** Adding a copy of 3 first elements: 
+--error-- # 5
+--error-- # 4
+--error-- # 3
+--error-- # 5
+--error-- # 4
+--error-- # 3
+--error-- # 2
+--error-- # 1
+--error-- # 0
+--error-- # 0
+--error-- # 1
+--error-- # 2
+--error-- # 3
+--error-- # 4
+--error-- # 5

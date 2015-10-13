@@ -1,0 +1,22 @@
+3 print
+true
+{ 33 pop print print_stack}
+print_stack
+
+"zet"
+
+"hello"
+print
+
+"zer\teed"
+
+"eraer"
+print
+
+-52.58
+-58.52
+
+pop
+
+print_stack
+

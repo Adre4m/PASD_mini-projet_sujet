@@ -1,0 +1,155 @@
+==**== reading: 77 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 4.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Paint (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "re" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+nop
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+nop
+}
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+nop
+}
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+nop
+}
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+nop
+4.500000
+"80"
+nop
+true
+nop
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+nop
+4.500000
+"80"
+nop
+true
+nop
+}
+{
+nop
+}
+"re"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+{
+nop
+4.500000
+"80"
+nop
+true
+nop
+}
+{
+nop
+}
+"re"
+\Paint
+true
+4.000000
+77

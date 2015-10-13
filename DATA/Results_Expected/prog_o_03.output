@@ -1,0 +1,35 @@
+3
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+"hello"
+"eraer"
+vvvvvvvv stack  top  vvvvvvvvvv
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+======== final stack =============
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true

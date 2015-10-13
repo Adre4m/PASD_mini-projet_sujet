@@ -1,0 +1,196 @@
+==**== reading: 3 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+3
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print (operator)
+3
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+33
+pop
+print
+print_stack
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print_stack (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zet" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "hello" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"hello"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print (operator)
+"hello"
+vvvvvvvv stack  top  vvvvvvvvvv
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zer	eed" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "eraer" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"eraer"
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print (operator)
+"eraer"
+vvvvvvvv stack  top  vvvvvvvvvv
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -52.580000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -58.520000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-58.520000
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: pop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print_stack (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+-52.580000
+"zer	eed"
+"zet"
+{
+33
+pop
+print
+print_stack
+}
+true

@@ -1,0 +1,112 @@
+==**== reading: {
+33
++
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+33
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Robert (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Robert
+{
+33
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print_dictionary (operator)
+vvvvvvvv dictionary vvvvvvvvvv
+"Robert" => {
+33
++
+}
+^^^^^^^^ dictionary ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "Changed" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"Changed"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Robert (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Robert
+"Changed"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print_dictionary (operator)
+vvvvvvvv dictionary vvvvvvvvvv
+"Robert" => "Changed"
+^^^^^^^^ dictionary ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \d (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\d
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Fe (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Fe
+\d
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Be (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Be
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+"tt"
+pop
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"tt"
+pop
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Be (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Be
+{
+"tt"
+pop
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print_dictionary (operator)
+vvvvvvvv dictionary vvvvvvvvvv
+"Be" => {
+"tt"
+pop
+}
+"Fe" => \d
+"Robert" => "Changed"
+^^^^^^^^ dictionary ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+"Be" => {
+"tt"
+pop
+}
+"Fe" => \d
+"Robert" => "Changed"
+======== final stack =============

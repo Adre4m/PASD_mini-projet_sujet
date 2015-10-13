@@ -1,0 +1,72 @@
+==**== reading: 0 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+0
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Bob
+0
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \like_Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\like_Bob
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 6 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+6
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Bob
+6
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 66 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+66
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Bob
+66
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+Bob
+like_Bob
+yet_undefined_label
+\Protected
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+Bob
+like_Bob
+yet_undefined_label
+\Protected
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+"Bob" => 66
+"like_Bob" => true
+======== final stack =============
+{
+Bob
+like_Bob
+yet_undefined_label
+\Protected
+}

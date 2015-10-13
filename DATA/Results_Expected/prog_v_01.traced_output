@@ -1,0 +1,28 @@
+==**== reading: 8 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+8
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 256 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+256
+8
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -7 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-7
+256
+8
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -58 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-58
+-7
+256
+8
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+-58
+-7
+256
+8

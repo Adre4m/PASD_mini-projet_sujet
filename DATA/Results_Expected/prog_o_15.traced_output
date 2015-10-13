@@ -1,0 +1,240 @@
+==**== reading: {
+"error 1"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"error 1"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+{
+"error 1"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+{
+"error 1"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: && (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+{
+"error 1"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+"ok 2"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"ok 2"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+{
+"ok 2"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+{
+"ok 2"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: || (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+{
+"ok 2"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if (operator)
+==**== reading: "ok 2" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+{
+"ok 3"
+}
+10
+10
+<=
+if
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+{
+"ok 3"
+}
+10
+10
+<=
+if
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+{
+{
+"ok 3"
+}
+10
+10
+<=
+if
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10.000000
+10
+{
+{
+"ok 3"
+}
+10
+10
+<=
+if
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: == (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+{
+{
+"ok 3"
+}
+10
+10
+<=
+if
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if (operator)
+==**== reading: {
+"ok 3"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"ok 3"
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+{
+"ok 3"
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+10
+{
+"ok 3"
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: <= (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+{
+"ok 3"
+}
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if (operator)
+==**== reading: "ok 3" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "OK / LABEL" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK / LABEL"
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \OK_LABEL (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\OK_LABEL
+"OK / LABEL"
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \OK_LABEL (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\OK_LABEL
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+\OK_LABEL
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if (operator)
+==**== reading: OK_LABEL (operator)
+DECLANCHEMENT DE OK_LABEL
+==**== reading: "OK / LABEL" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK / LABEL"
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK / LABEL"
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK / LABEL"
+"ok 3"
+"ok 2"
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+"OK_LABEL" => "OK / LABEL"
+======== final stack =============
+"OK / LABEL"
+"ok 3"
+"ok 2"

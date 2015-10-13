@@ -1,0 +1,748 @@
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+1
+copy
+1
++
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+1
+copy
+1
++
+}
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+1
+copy
+13
+<
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+1
+copy
+13
+<
+}
+{
+1
+copy
+1
++
+}
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: while (operator)
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+10
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+10
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+11
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+11
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+11
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+11
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+12
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+12
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+12
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+12
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+13
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+1
+copy
+1
++
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+1
+copy
+1
++
+}
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \LOOP (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\LOOP
+{
+1
+copy
+1
++
+}
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+1
+copy
+13
+<
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+1
+copy
+13
+<
+}
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \CND (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\CND
+{
+1
+copy
+13
+<
+}
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \LOOP (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\LOOP
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \CND (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\CND
+\LOOP
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: while (operator)
+==**== reading: CND (operator)
+DECLANCHEMENT DE CND
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+10
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: LOOP (operator)
+DECLANCHEMENT DE LOOP
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+10
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: CND (operator)
+DECLANCHEMENT DE CND
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+11
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+11
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: LOOP (operator)
+DECLANCHEMENT DE LOOP
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+11
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+11
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: CND (operator)
+DECLANCHEMENT DE CND
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+12
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+12
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: LOOP (operator)
+DECLANCHEMENT DE LOOP
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+12
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+12
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: CND (operator)
+DECLANCHEMENT DE CND
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 13 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+13
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+13
+12
+11
+10
+13
+12
+11
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+"CND" => {
+1
+copy
+13
+<
+}
+"LOOP" => {
+1
+copy
+1
++
+}
+======== final stack =============
+13
+12
+11
+10
+13
+12
+11
+10

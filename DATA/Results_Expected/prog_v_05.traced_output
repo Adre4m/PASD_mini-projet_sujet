@@ -1,0 +1,31 @@
+==**== reading: "re" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"re"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long sstring" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long sstring"
+"re"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+""
+"very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long sstring"
+"re"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "++"	"
+++" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"++"	"
+++"
+""
+"very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long sstring"
+"re"
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+"++"	"
+++"
+""
+"very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very very long sstring"
+"re"

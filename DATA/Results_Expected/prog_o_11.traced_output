@@ -1,0 +1,236 @@
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 30.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+30.000000
+10
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 30 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+30
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10.100000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10.100000
+30
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 30.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+30.000000
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+30.000000
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 30.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+30.000000
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 30 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+30
+30.000000
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 30 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+30
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 30.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+30.000000
+30
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: <= (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zr" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zr"
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "ZR" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ZR"
+"zr"
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "ZR" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ZR"
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zr" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zr"
+"ZR"
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zr" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zr"
+true
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zr" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zr"
+"zr"
+true
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: < (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zr" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zr"
+false
+true
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "zr" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"zr"
+"zr"
+false
+true
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: <= (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+false
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+true
+false
+true
+false
+true
+false
+false
+false
+true

@@ -1,0 +1,18 @@
+vvvvvvvv dictionary vvvvvvvvvv
+"Robert" => {
+33
++
+}
+^^^^^^^^ dictionary ^^^^^^^^^
+vvvvvvvv dictionary vvvvvvvvvv
+"Robert" => "Changed"
+^^^^^^^^ dictionary ^^^^^^^^^
+vvvvvvvv dictionary vvvvvvvvvv
+"Be" => {
+"tt"
+pop
+}
+"Fe" => \d
+"Robert" => "Changed"
+^^^^^^^^ dictionary ^^^^^^^^^
+======== final stack =============

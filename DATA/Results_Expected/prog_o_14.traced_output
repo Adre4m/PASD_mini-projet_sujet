@@ -1,0 +1,196 @@
+==**== reading: {
+Bob
+like_Bob
+yet_undefined_label
+\Prot
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+Bob
+like_Bob
+yet_undefined_label
+\Prot
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \l (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\l
+{
+Bob
+like_Bob
+yet_undefined_label
+\Prot
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: print_dictionary (operator)
+vvvvvvvv dictionary vvvvvvvvvv
+"l" => {
+Bob
+like_Bob
+yet_undefined_label
+\Prot
+}
+^^^^^^^^ dictionary ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Bob
+1
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+Bob
+1
++
+\Bob
+def
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+Bob
+1
++
+\Bob
+def
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Increment_Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Increment_Bob
+{
+Bob
+1
++
+\Bob
+def
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: Increment_Bob (operator)
+DECLANCHEMENT DE Increment_Bob
+==**== reading: Bob (operator)
+DECLANCHEMENT DE Bob
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+1
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+2
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Bob
+2
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: Increment_Bob (operator)
+DECLANCHEMENT DE Increment_Bob
+==**== reading: Bob (operator)
+DECLANCHEMENT DE Bob
+==**== reading: 2 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+2
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+2
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+2
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+3
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Bob
+3
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: Increment_Bob (operator)
+DECLANCHEMENT DE Increment_Bob
+==**== reading: Bob (operator)
+DECLANCHEMENT DE Bob
+==**== reading: 3 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+3
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+3
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+3
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+4
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Bob (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Bob
+4
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: Bob (operator)
+DECLANCHEMENT DE Bob
+==**== reading: 4 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+4
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+4
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+"Bob" => 4
+"Increment_Bob" => {
+Bob
+1
++
+\Bob
+def
+}
+"l" => {
+Bob
+like_Bob
+yet_undefined_label
+\Prot
+}
+======== final stack =============
+4

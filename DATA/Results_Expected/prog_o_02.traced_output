@@ -1,0 +1,182 @@
+==**== reading: 77 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 4.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: nop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Paint (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "mauvais" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"mauvais"
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: pop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+892
+pop
+{
+33
+88
+pop
+pop
+}
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+892
+pop
+{
+33
+88
+pop
+pop
+}
+}
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+}
+{
+892
+pop
+{
+33
+88
+pop
+pop
+}
+}
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: pop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+892
+pop
+{
+33
+88
+pop
+pop
+}
+}
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+{
+892
+pop
+{
+33
+88
+pop
+pop
+}
+}
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+{
+892
+pop
+{
+33
+88
+pop
+pop
+}
+}
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: pop (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+{
+892
+pop
+{
+33
+88
+pop
+pop
+}
+}
+\Paint
+true
+4.000000
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+true
+{
+892
+pop
+{
+33
+88
+pop
+pop
+}
+}
+\Paint
+true
+4.000000
+77

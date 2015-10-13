@@ -1,0 +1,58 @@
+==**== reading: 77 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -56 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 4.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -58.500000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-58.500000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 0.480000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+0.480000
+-58.500000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -256.258000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-256.258000
+0.480000
+-58.500000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -0.500000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-0.500000
+-256.258000
+0.480000
+-58.500000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+-0.500000
+-256.258000
+0.480000
+-58.500000
+4.000000
+-56
+77

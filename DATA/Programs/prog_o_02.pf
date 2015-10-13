@@ -1,0 +1,18 @@
+77 nop  4.0 
+true nop \Paint
+
+"mauvais"
+pop
+
+{
+892
+pop
+{ 33 88 pop pop }
+}
+
+{}
+pop
+
+true
+false
+pop

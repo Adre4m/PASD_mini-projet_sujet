@@ -1,0 +1,29 @@
+
+{
+Bob
+like_Bob
+yet_undefined_label
+\Prot
+}
+\l
+def
+
+print_dictionary
+
+1 \Bob def
+
+{
+	Bob
+	1
+	+
+	\Bob
+	def
+}
+\Increment_Bob
+def
+
+Increment_Bob
+Increment_Bob
+Increment_Bob
+
+Bob

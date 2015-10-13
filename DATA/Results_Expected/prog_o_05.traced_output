@@ -1,0 +1,53 @@
+==**== reading: "bottom" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"bottom"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+"bottom"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+1
+true
+"bottom"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+"bottom"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 10 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+true
+true
+"bottom"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 2 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+2
+10
+true
+true
+"bottom"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: copy (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+10
+true
+10
+true
+true
+"bottom"
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+10
+true
+10
+true
+true
+"bottom"

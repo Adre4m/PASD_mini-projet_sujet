@@ -1,0 +1,37 @@
+==**== reading: \draw (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\draw
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Paint (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Paint
+\draw
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \i (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\i
+\Paint
+\draw
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \add_1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\add_1
+\i
+\Paint
+\draw
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \mul_3_plus_1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\mul_3_plus_1
+\add_1
+\i
+\Paint
+\draw
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+\mul_3_plus_1
+\add_1
+\i
+\Paint
+\draw

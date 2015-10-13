@@ -1,0 +1,281 @@
+==**== reading: {
+"ok"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"ok"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+"error"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"error"
+}
+{
+"ok"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+{
+"error"
+}
+{
+"ok"
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if_else (operator)
+==**== reading: "ok" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+"error"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"error"
+}
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+"ok"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"ok"
+}
+{
+"error"
+}
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+{
+"ok"
+}
+{
+"error"
+}
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if_else (operator)
+==**== reading: "ok" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+{
+"error"
+}
+{
+"ok"
+}
+true
+if_else
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+{
+"error"
+}
+{
+"ok"
+}
+true
+if_else
+}
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+{
+"error 1"
+}
+{
+"error 2"
+}
+false
+if_else
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+{
+"error 1"
+}
+{
+"error 2"
+}
+false
+if_else
+}
+{
+{
+"error"
+}
+{
+"ok"
+}
+true
+if_else
+}
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+{
+{
+"error 1"
+}
+{
+"error 2"
+}
+false
+if_else
+}
+{
+{
+"error"
+}
+{
+"ok"
+}
+true
+if_else
+}
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if_else (operator)
+==**== reading: {
+"error"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"error"
+}
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+"ok"
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"ok"
+}
+{
+"error"
+}
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+{
+"ok"
+}
+{
+"error"
+}
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if_else (operator)
+==**== reading: "ok" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "OK" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK"
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \b (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\b
+"OK"
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: def (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \b (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\b
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+\b
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: if (operator)
+==**== reading: b (operator)
+DECLANCHEMENT DE b
+==**== reading: "OK" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK"
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK"
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+vvvvvvvv stack  top  vvvvvvvvvv
+"OK"
+"ok"
+"ok"
+"ok"
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+"b" => "OK"
+======== final stack =============
+"OK"
+"ok"
+"ok"
+"ok"

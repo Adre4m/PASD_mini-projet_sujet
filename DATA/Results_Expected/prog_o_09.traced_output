@@ -1,0 +1,325 @@
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: && (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: && (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: && (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: && (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: || (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: || (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: || (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: || (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: && (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: && (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: || (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+true
+true
+true
+false
+false
+false
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+false
+false
+true
+true
+true
+false
+false
+false
+true

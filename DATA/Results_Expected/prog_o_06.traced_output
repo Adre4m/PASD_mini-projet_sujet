@@ -1,0 +1,153 @@
+==**== reading: {
+nop
+pop
++
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 45 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+45
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 35 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+35
+45
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 45.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+45.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 35 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+35
+45.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+80.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 45 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+45
+80.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 35.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+35.000000
+45
+80.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+80.000000
+80.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 45.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+45.000000
+80.000000
+80.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 35.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+35.000000
+45.000000
+80.000000
+80.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: + (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+80.000000
+80.000000
+80.000000
+80
+{
+nop
+pop
++
+}
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+80.000000
+80.000000
+80.000000
+80
+{
+nop
+pop
++
+}

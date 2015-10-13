@@ -1,0 +1,202 @@
+==**== reading: 77 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -56 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: 4.000000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: -0.480000 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \Paint (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\Paint
+false
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: \mul_3_plus_1 (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+\mul_3_plus_1
+\Paint
+false
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "re" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"re"
+\mul_3_plus_1
+\Paint
+false
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: "++"	"
+++" (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+"++"	"
+++"
+"re"
+\mul_3_plus_1
+\Paint
+false
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+"re"
+4
+4.500000
+80
+true
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+"re"
+4
+4.500000
+80
+true
+}
+"++"	"
+++"
+"re"
+\mul_3_plus_1
+\Paint
+false
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+{
+{
+1
+}
+22
+{
+"=	="
+true
+7.500000
+}
+}
+{
+3
+}
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+{
+{
+1
+}
+22
+{
+"=	="
+true
+7.500000
+}
+}
+{
+3
+}
+}
+{
+"re"
+4
+4.500000
+80
+true
+}
+"++"	"
+++"
+"re"
+\mul_3_plus_1
+\Paint
+false
+true
+-0.480000
+4.000000
+-56
+77
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+{
+{
+{
+1
+}
+22
+{
+"=	="
+true
+7.500000
+}
+}
+{
+3
+}
+}
+{
+"re"
+4
+4.500000
+80
+true
+}
+"++"	"
+++"
+"re"
+\mul_3_plus_1
+\Paint
+false
+true
+-0.480000
+4.000000
+-56
+77

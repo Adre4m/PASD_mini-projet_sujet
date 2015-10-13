@@ -1,0 +1,39 @@
+Accessing with key: [etsd] "etsd"
+          expected: "true"
+               got: "true"
+Accessing with key: [Zeun] "Zeun"
+          expected: "45.000000"
+               got: "45.000000"
+Accessing with key: [Bun] "Bun"
+          expected: "55.000000"
+               got: "55.000000"
+Accessing with key: [eun] "eun"
+          expected: "5.000000"
+               got: "5.000000"
+Accessing with key: [S4567] "S4567"
+          expected: "85"
+               got: "85"
+Accessing with key: [##:!!##] "##:!!##"
+          expected: "\Etiquette"
+               got: "\Etiquette"
+"##:!!##" => \Etiquette
+"Bun" => 55.000000
+"S4567" => 85
+"Zeun" => 45.000000
+"etsd" => true
+"eun" => 5.000000
+Accessing with key: [eun] "eun"
+          expected: "false"
+               got: "false"
+Accessing with key: [S4567] "S4567"
+          expected: "false"
+               got: "false"
+Accessing with key: [etsd] "etsd"
+          expected: "false"
+               got: "false"
+"##:!!##" => \Etiquette
+"Bun" => 55.000000
+"S4567" => false
+"Zeun" => 45.000000
+"etsd" => false
+"eun" => false

@@ -1,0 +1,28 @@
+{ "ok"  }
+{ "error"  }
+false
+if_else
+
+{ "error"  }
+{ "ok"  }
+true
+if_else
+
+{
+  { "error"  }
+  { "ok"  }
+  true
+  if_else
+}
+{
+  { "error 1"  }
+  { "error 2" }
+  false
+  if_else
+}
+false
+if_else
+
+"OK" \b def
+
+\b true if

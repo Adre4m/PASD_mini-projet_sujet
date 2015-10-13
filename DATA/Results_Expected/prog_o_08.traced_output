@@ -1,0 +1,70 @@
+==**== reading: true (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: false (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+false
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: ! (operator)
+vvvvvvvv stack  top  vvvvvvvvvv
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+==**== reading: {
+true
+!
+false
+!
+} (value)
+vvvvvvvv stack  top  vvvvvvvvvv
+{
+true
+!
+false
+!
+}
+true
+true
+false
+^^^^^^^^ stack bottom ^^^^^^^^^
+======= dictionnary ==============
+======== final stack =============
+{
+true
+!
+false
+!
+}
+true
+true
+false

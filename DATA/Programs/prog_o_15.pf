@@ -1,0 +1,30 @@
+
+{ "error 1"  }
+false
+true
+&&
+if
+
+{ "ok 2"  }
+false
+true
+||
+if
+
+
+{ 
+  { "ok 3"  }
+  10 10 <=
+  if
+}
+10 10.0 ==
+if
+
+
+
+
+"OK / LABEL" \OK_LABEL def
+
+\OK_LABEL
+true
+if
