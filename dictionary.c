@@ -35,6 +35,8 @@
 
 /*! \c dictionary is a pointer to the hidden structure for dictionary. */
 
+typedef struct node_struct node;
+
 struct node_struct {
   sstring key;
   chunk val;
@@ -43,11 +45,9 @@ struct node_struct {
   node* father;
 };
 
-typedef struct node_struct node;
-
 node* node_create(void) {
   node* nd = (node*) malloc(sizeof(node));
-  nd->key = sstring_create_empty(void);
+  nd->key = sstring_create_empty();
   nd->val = NULL;
   nd->left_son = NULL;
   nd->right_son = NULL;
@@ -55,7 +55,7 @@ node* node_create(void) {
   return nd;
 }
 
-void node_destroy(node** n) {
+void node_destroy(node** nd) {
 	if((*nd)->left_son != NULL) {
 		(*nd)->left_son->father = NULL;
 		node_destroy(&((*nd)->left_son));
@@ -72,15 +72,15 @@ void node_destroy(node** n) {
 		} else {
 			(*nd)->father->right_son = NULL;
 		}
-		node_destroy(&((*a)->father));
+		node_destroy(&((*nd)->father));
 		(*nd)->father = NULL;
 	}
-	sstring_destroy(&(nd->key);
-	chunk_destroy(&(nd->val));
-	nd->father = NULL;
-	nd->right_son = NULL;
-	nd->left_son = NULL;
-	free(nd);
+	sstring_destroy((*nd)->key);
+	chunk_destroy((*nd)->val);
+	(*nd)->father = NULL;
+	(*nd)->right_son = NULL;
+	(*nd)->left_son = NULL;
+	free(*nd);
 }
 
 void node_print(node* nd, FILE* f) {
@@ -88,27 +88,54 @@ void node_print(node* nd, FILE* f) {
 		node_print(nd->left_son, f);
 	if(nd->right_son != NULL)
 		node_print(nd->right_son, f);
-	fprintf(f, "key : ");
-	sstring_print(nd->key);
-	fprintf(f, ", value : ");
-	chunk_print(nd->val);
+	chunk_print(nd->val, f);
+	fprintf(f, "\n");
+}
+
+bool node_is_leaf(node* nd) {
+	return (nd->right_son == NULL) && (nd->left_son == NULL);
+}
+
+int node_size(node* nd) {
+	int size = 0;
+	if(nd->left_son != NULL)
+		size += node_size(nd->left_son);
+	if(nd->right_son != NULL)
+		size += node_size(nd->right_son);
+	return size + 1;
+}
+
+chunk node_search(node* nd, sstring key) {
+	int cmp = sstring_compare(key, nd->key);
+	if(cmp == 0) {
+		return nd->val;
+	} else {
+		if(1 <= cmp) {
+			if(nd->right_son != NULL)
+				return node_search(nd->right_son, key);
+		} else {
+			if(nd->left_son != NULL)
+				return node_search(nd->left_son, key);
+		}
+		return NULL;
+	}
 }
 
 void node_add_value(node* nd, sstring key, chunk value) {
 	assert(!sstring_is_empty(key));
 	if(sstring_is_empty(nd->key)) {
-		int comp = sstring_compare(nd->key, key);
+		int cmp = sstring_compare(nd->key, key);
 		if(cmp != 0) {
 			if (cmp <= -1) {
 				if(nd->right_son == NULL) {
-					nd->right_son = node_create(void);
+					nd->right_son = node_create();
 					sstring_concatenate(nd->right_son->key, key);
 					nd->right_son->val = chunk_copy(value);
 				} else
 					node_add_value(nd->right_son, key, value);
 			} else {
 				if(nd->left_son == NULL) {
-					nd->left_son = node_create(void);
+					nd->left_son = node_create();
 					sstring_concatenate(nd->left_son->key, key);
 					nd->left_son->val = chunk_copy(value);
 				} else
@@ -138,8 +165,8 @@ void node_del_value(node* nd, sstring key) {
 					nd->father->left_son = NULL;
 				}
 			}
-			sstring_destroy(&(nd->key);
-			chunk_destroy(&(nd->val));
+			sstring_destroy(nd->key);
+			chunk_destroy(nd->val);
 			nd->father = NULL;
 			nd->right_son = NULL;
 			nd->left_son = NULL;
@@ -164,8 +191,8 @@ void node_del_value(node* nd, sstring key) {
 					nd->right_son->father = inter;
 					inter->right_son = nd->right_son;
 				}
-				sstring_destroy(&(nd->key);
-				chunk_destroy(&(nd->val));
+				sstring_destroy(nd->key);
+				chunk_destroy(nd->val);
 				nd->father = NULL;
 				nd->right_son = NULL;
 				nd->left_son = NULL;
@@ -185,8 +212,8 @@ void node_del_value(node* nd, sstring key) {
 						nd->father->right_son = inter;
 					}
 				}
-				sstring_destroy(&(nd->key);
-				chunk_destroy(&(nd->val));
+				sstring_destroy(nd->key);
+				chunk_destroy(nd->val);
 				nd->father = NULL;
 				nd->right_son = NULL;
 				nd->left_son = NULL;
@@ -194,6 +221,24 @@ void node_del_value(node* nd, sstring key) {
 			}
 		}
 	}
+}
+
+node* node_copy(node* nd) {
+	node* res = (node*) malloc(sizeof(node));
+	res->key = sstring_copy(nd->key);
+	res->val = chunk_copy(nd->val);
+	res->father = NULL;
+	if(nd->right_son != NULL) {
+		res->right_son = node_copy(nd->right_son);
+		res->right_son->father = res;
+	} else
+		res->right_son = NULL;
+	if(nd->left_son != NULL) {
+		res->left_son = node_copy(nd->left_son);
+		res->left_son->father = res;
+	} else
+		res->left_son = NULL;
+	return res;
 }
 
 struct dictionary_struct {
@@ -206,7 +251,8 @@ struct dictionary_struct {
  * \return an empty \c dictionary
  */
 dictionary dictionary_create ( void )  {
-  dictionary dic = (dictionary) malloc(sizeof(struct(dictionary_struct)));
+  dictionary dic = (dictionary) malloc(sizeof(struct dictionary_struct));
+  dic->tree = node_create();
   return dic;
 }
 
@@ -223,11 +269,10 @@ dictionary dictionary_create ( void )  {
  * \pre no pointer is NULL (assert-ed)
  * \pre key is not an empty string  (assert-ed)
  */
-void dictionary_set ( dictionary dic ,
-			     sstring key ,
-			     chunk val )  {
+void dictionary_set ( dictionary dic , sstring key , chunk val )  {
   assert(key != NULL && val != NULL);
   assert(!sstring_is_empty(key));
+  node_add_value(dic->tree, key, val);
 }
 
 
@@ -240,8 +285,9 @@ void dictionary_set ( dictionary dic ,
  * \pre key is not empty
  * \return a \b copy of the associated \c chunk or NULL if undefined 
  */
-chunk dictionary_get_copy ( dictionary dic ,
-				   sstring key )  { return NULL ; }
+chunk dictionary_get_copy ( dictionary dic , sstring key )  {
+	return chunk_copy(node_search(dic->tree, key));
+}
 
 
 /*!
@@ -251,7 +297,10 @@ chunk dictionary_get_copy ( dictionary dic ,
  * \param dic \c dictionary to destroy
  * \pre no pointer is NULL (assert-ed)
  */
-void dictionary_destroy ( dictionary dic )  {}
+void dictionary_destroy ( dictionary dic )  {
+	node_destroy(&(dic->tree));
+	free(dic);
+}
 
 
 /*!
@@ -271,5 +320,6 @@ void dictionary_destroy ( dictionary dic )  {}
  * \param f stream to print to
  * \pre no pointer is NULL (assert-ed)
  */
-void dictionary_print ( dictionary dic ,
-			       FILE * f )  {}
+void dictionary_print ( dictionary dic , FILE * f )  {
+	node_print(dic->tree, f);
+}
